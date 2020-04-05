@@ -68,7 +68,7 @@ public class Projectile : MonoBehaviour
         }
         else if (_currentFunction == Function.sine)
         {
-            _amplitude = xVal;
+            _amplitude = xVal * .1f;
             _frequency = yVal;
         }
     }

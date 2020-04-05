@@ -6,6 +6,7 @@ public class InputAllocator : MonoBehaviour
 {
     [SerializeField] private Movement _playerMovement = null;
     [SerializeField] private Shoot _shoot = null;
+    [SerializeField] private UIManager _ui = null;
 
     private Inputmapping _map;
 
@@ -52,15 +53,18 @@ public class InputAllocator : MonoBehaviour
     void SwitchFunction()
     {
         _shoot.SetFunction();
+        _ui.SetFunction();
     }
 
     void IncreaseX(int posOrNeg)
     {
-
+        _shoot.setX(posOrNeg);
+        _ui.SetX(posOrNeg);
     }
 
     void IncreaseY(int posOrNeg)
     {
-
+        _shoot.setY(posOrNeg);
+        _ui.SetY(posOrNeg);
     }
 }

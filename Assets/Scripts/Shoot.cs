@@ -49,5 +49,7 @@ public class Shoot : MonoBehaviour
         shot.GetComponent<Rigidbody2D>().velocity = direction.normalized * _speed;
         shot.GetComponent<Projectile>().SetSpeed(_speed);
         shot.GetComponent<Projectile>().SetFunction(_functionIndex);
+        shot.GetComponent<Projectile>().setX((int)xVal);
+        shot.GetComponent<Projectile>().setY((int)yVal);
     }
 }

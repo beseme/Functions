@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: 2a24f0a090bdf394fb84419b5f263b34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3855991336698077025
+    second: debugged walls_0
+  - first:
+      213: 6076438550282480710
+    second: debugged walls_1
+  - first:
+      213: 698496298526598395
+    second: debugged walls_2
+  - first:
+      213: -4673056840869449163
+    second: debugged walls_3
+  - first:
+      213: 8057767739991503106
+    second: debugged walls_4
+  - first:
+      213: 5453477851355119201
+    second: debugged walls_5
+  - first:
+      213: 4719469626989486427
+    second: debugged walls_6
+  - first:
+      213: -1538408679774618266
+    second: debugged walls_7
+  - first:
+      213: 2629485177763645890
+    second: debugged walls_8
+  - first:
+      213: 8172547589740191601
+    second: debugged walls_9
+  - first:
+      213: -7495650267161358908
+    second: debugged walls_10
+  - first:
+      213: 2957503047376112435
+    second: debugged walls_11
+  - first:
+      213: -650372834046146763
+    second: debugged walls_12
+  - first:
+      213: 6714927384442732945
+    second: debugged walls_13
+  - first:
+      213: 3808390649559858728
+    second: debugged walls_14
+  - first:
+      213: -2322950118858377575
+    second: debugged walls_15
+  - first:
+      213: -9099447434469029767
+    second: debugged walls_16
+  - first:
+      213: 1973719733869932728
+    second: debugged walls_17
+  - first:
+      213: -1579691130240709055
+    second: debugged walls_18
+  - first:
+      213: 6818413510350110704
+    second: debugged walls_19
+  - first:
+      213: -1092357601287397706
+    second: debugged walls_20
+  - first:
+      213: -221573870003866955
+    second: debugged walls_21
+  - first:
+      213: -2560053816798273460
+    second: debugged walls_22
+  - first:
+      213: 7071824760343498090
+    second: debugged walls_23
+  - first:
+      213: -1470149875985371549
+    second: debugged walls_24
+  - first:
+      213: -8620644578043306932
+    second: debugged walls_25
+  - first:
+      213: -3554740799318868754
+    second: debugged walls_26
+  - first:
+      213: -48184660250720214
+    second: debugged walls_27
+  - first:
+      213: -352811220833974402
+    second: debugged walls_28
+  - first:
+      213: 8862124521850177633
+    second: debugged walls_29
+  - first:
+      213: 8453522354879571880
+    second: debugged walls_30
+  - first:
+      213: -7390440255888275148
+    second: debugged walls_31
+  - first:
+      213: -5256481877615228694
+    second: debugged walls_32
+  - first:
+      213: -1704602031384984519
+    second: debugged walls_33
+  - first:
+      213: 3691771474457366394
+    second: debugged walls_34
+  - first:
+      213: -5908743678354336517
+    second: debugged walls_35
+  - first:
+      213: -2332698887923330991
+    second: debugged walls_36
+  - first:
+      213: 7837949092157496961
+    second: debugged walls_37
+  - first:
+      213: -904885220884868750
+    second: debugged walls_38
+  - first:
+      213: 7737509994259921436
+    second: debugged walls_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: debugged walls_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90a0272f44cc7ac0800000000000000
+      internalID: -3855991336698077025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ca319caa8d35450800000000000000
+      internalID: 6076438550282480710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46a96ceae81b900800000000000000
+      internalID: 698496298526598395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53274c8ef87f52fb0800000000000000
+      internalID: -4673056840869449163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201bbc05111f2df60800000000000000
+      internalID: 8057767739991503106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e7b784635aeab40800000000000000
+      internalID: 5453477851355119201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5124f4fe9cee7140800000000000000
+      internalID: 4719469626989486427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df7a2e47976aae0800000000000000
+      internalID: -1538408679774618266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c1ca66decd7420800000000000000
+      internalID: 2629485177763645890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debugged walls_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f507c9bb8ba6170800000000000000
+      internalID: 8172547589740191601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
