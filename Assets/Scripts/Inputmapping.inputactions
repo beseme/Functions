@@ -84,6 +84,22 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Shoulder R",
+                    "type": "Button",
+                    "id": "fc48d9c4-1456-46ab-899f-0921c96098d7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Shoulder L",
+                    "type": "Button",
+                    "id": "4fbfc21f-ac5c-4b0c-83c4-dac8f250175b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -194,6 +210,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Stick R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba8c6a28-28ce-4a68-959e-030286fc3b5f",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoulder R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa0d6fbf-1f90-46a0-b295-451d6e6b6c89",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoulder L",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

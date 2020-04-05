@@ -5,6 +5,7 @@ using UnityEngine;
 public class InputAllocator : MonoBehaviour
 {
     [SerializeField] private Movement _playerMovement = null;
+    [SerializeField] private Shoot _shoot = null;
 
     private Inputmapping _map;
 
@@ -20,6 +21,12 @@ public class InputAllocator : MonoBehaviour
 
         _map.Gamepad.StickR.performed += Stick => _aimAxis = Stick.ReadValue<Vector2>();
         //_map.Gamepad.StickR.canceled += Stick => _aimAxis = Vector2.zero;
+        _map.Gamepad.ShoulderR.performed += Button => Shoot();
+        _map.Gamepad.ShoulderL.performed += Button => SwitchFunction();
+        _map.Gamepad.DUP.performed += Button => IncreaseY(1);
+        _map.Gamepad.DDown.performed += Button => IncreaseY(-1);
+        _map.Gamepad.DR.performed += Button => IncreaseX(1);
+        _map.Gamepad.DL.performed += Button => IncreaseX(-1);
     }
 
     private void OnEnable()
@@ -35,5 +42,25 @@ public class InputAllocator : MonoBehaviour
     {
         _playerMovement.SetAim(_aimAxis);
         _playerMovement.SetMove(_moveAxis);
+    }
+
+    void Shoot()
+    {
+        _shoot.StartShot(_aimAxis);
+    }
+
+    void SwitchFunction()
+    {
+        _shoot.SetFunction();
+    }
+
+    void IncreaseX(int posOrNeg)
+    {
+
+    }
+
+    void IncreaseY(int posOrNeg)
+    {
+
     }
 }

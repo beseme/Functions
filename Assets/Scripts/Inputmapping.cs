@@ -97,6 +97,22 @@ public class @Inputmapping : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Shoulder R"",
+                    ""type"": ""Button"",
+                    ""id"": ""fc48d9c4-1456-46ab-899f-0921c96098d7"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Shoulder L"",
+                    ""type"": ""Button"",
+                    ""id"": ""4fbfc21f-ac5c-4b0c-83c4-dac8f250175b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -209,6 +225,28 @@ public class @Inputmapping : IInputActionCollection, IDisposable
                     ""action"": ""Stick R"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ba8c6a28-28ce-4a68-959e-030286fc3b5f"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoulder R"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""aa0d6fbf-1f90-46a0-b295-451d6e6b6c89"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoulder L"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -227,6 +265,8 @@ public class @Inputmapping : IInputActionCollection, IDisposable
         m_Gamepad_DDown = m_Gamepad.FindAction("D Down", throwIfNotFound: true);
         m_Gamepad_StickL = m_Gamepad.FindAction("Stick L", throwIfNotFound: true);
         m_Gamepad_StickR = m_Gamepad.FindAction("Stick R", throwIfNotFound: true);
+        m_Gamepad_ShoulderR = m_Gamepad.FindAction("Shoulder R", throwIfNotFound: true);
+        m_Gamepad_ShoulderL = m_Gamepad.FindAction("Shoulder L", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -286,6 +326,8 @@ public class @Inputmapping : IInputActionCollection, IDisposable
     private readonly InputAction m_Gamepad_DDown;
     private readonly InputAction m_Gamepad_StickL;
     private readonly InputAction m_Gamepad_StickR;
+    private readonly InputAction m_Gamepad_ShoulderR;
+    private readonly InputAction m_Gamepad_ShoulderL;
     public struct GamepadActions
     {
         private @Inputmapping m_Wrapper;
@@ -300,6 +342,8 @@ public class @Inputmapping : IInputActionCollection, IDisposable
         public InputAction @DDown => m_Wrapper.m_Gamepad_DDown;
         public InputAction @StickL => m_Wrapper.m_Gamepad_StickL;
         public InputAction @StickR => m_Wrapper.m_Gamepad_StickR;
+        public InputAction @ShoulderR => m_Wrapper.m_Gamepad_ShoulderR;
+        public InputAction @ShoulderL => m_Wrapper.m_Gamepad_ShoulderL;
         public InputActionMap Get() { return m_Wrapper.m_Gamepad; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -339,6 +383,12 @@ public class @Inputmapping : IInputActionCollection, IDisposable
                 @StickR.started -= m_Wrapper.m_GamepadActionsCallbackInterface.OnStickR;
                 @StickR.performed -= m_Wrapper.m_GamepadActionsCallbackInterface.OnStickR;
                 @StickR.canceled -= m_Wrapper.m_GamepadActionsCallbackInterface.OnStickR;
+                @ShoulderR.started -= m_Wrapper.m_GamepadActionsCallbackInterface.OnShoulderR;
+                @ShoulderR.performed -= m_Wrapper.m_GamepadActionsCallbackInterface.OnShoulderR;
+                @ShoulderR.canceled -= m_Wrapper.m_GamepadActionsCallbackInterface.OnShoulderR;
+                @ShoulderL.started -= m_Wrapper.m_GamepadActionsCallbackInterface.OnShoulderL;
+                @ShoulderL.performed -= m_Wrapper.m_GamepadActionsCallbackInterface.OnShoulderL;
+                @ShoulderL.canceled -= m_Wrapper.m_GamepadActionsCallbackInterface.OnShoulderL;
             }
             m_Wrapper.m_GamepadActionsCallbackInterface = instance;
             if (instance != null)
@@ -373,6 +423,12 @@ public class @Inputmapping : IInputActionCollection, IDisposable
                 @StickR.started += instance.OnStickR;
                 @StickR.performed += instance.OnStickR;
                 @StickR.canceled += instance.OnStickR;
+                @ShoulderR.started += instance.OnShoulderR;
+                @ShoulderR.performed += instance.OnShoulderR;
+                @ShoulderR.canceled += instance.OnShoulderR;
+                @ShoulderL.started += instance.OnShoulderL;
+                @ShoulderL.performed += instance.OnShoulderL;
+                @ShoulderL.canceled += instance.OnShoulderL;
             }
         }
     }
@@ -389,5 +445,7 @@ public class @Inputmapping : IInputActionCollection, IDisposable
         void OnDDown(InputAction.CallbackContext context);
         void OnStickL(InputAction.CallbackContext context);
         void OnStickR(InputAction.CallbackContext context);
+        void OnShoulderR(InputAction.CallbackContext context);
+        void OnShoulderL(InputAction.CallbackContext context);
     }
 }
